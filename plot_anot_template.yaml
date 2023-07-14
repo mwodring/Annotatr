@@ -1,0 +1,9 @@
+anot_csv: ANNOTATION_CSV_HERE.csv
+bg_file: BEDGRAPH_FILE_HERE.bedGraph.gz
+contig_length: 500
+contig_name: Contig
+height: 800
+orf_csv: ORF_CSV_HERE.csv
+phob_csv: PHOB_CSV_HERE.csv
+plot_name: Annotation Plot
+width: 1600
