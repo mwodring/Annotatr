@@ -1,0 +1,4 @@
+Name,Type,Minimum,Maximum,Length,Direction
+DOMAIN,domain,110,199,89,forward
+"",active site,200,201,1,none
+BINDING SITE,binding site,202,210,8,forward

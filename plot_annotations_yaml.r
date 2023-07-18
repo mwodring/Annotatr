@@ -22,10 +22,10 @@ anot_data <- read.csv(paste0(anot_csv))
 phob_csv <- yaml_data["phob_csv"]
 
 if (identical(phob_csv, "")) {
+    phob <- FALSE 
+    } else {
     phob <- TRUE 
     phob_data <- read.csv(paste0(phob_csv))
-    } else {
-    phob <- FALSE 
     }
 
 ORFs_starts <- orf_data$start
